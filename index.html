@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColoRawe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -14,11 +24,11 @@
                 <a href="./index.html"><img src="./imges/logo.svg" alt="logo"></a>
                 <ul>
                     <li><a href="./index.html">Main page</a></li>
-                    <li><a href="benefits">Benefits</a></li>
-                    <li><a href="Advantages">Advantages</a></li>
-                    <li><a href="Reviews">Reviews</a></li>
-                    <li><a href="Contacts">Contacts</a></li>
-                    <li><a href="Order">Order</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#advantages">Advantages</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#order">Order</a></li>
                 </ul>
 
                 <ul>
@@ -40,6 +50,83 @@
                     Good luck finding your way in the world of custom sneakers.
                 </p>
                 <a class="hero_button" href="https://www.nike.com">Buy my Nike</a>
+            </div>
+        </section>
+
+        <section id="benefits">
+            <div class="container">
+                <ul class="benefits-list">
+                    <li class="benefits-item">
+                        <p>Premium Quality</p>
+                        <img src="./imges/stars.svg" alt="stars">
+                    </li>
+                    <li class="benefits-item">
+                        <p>Indelible paint</p>
+                        <img src="./imges/paints.svg" alt="paints">
+                    </li>
+                    <li class="benefits-item">
+                        <p>Fast shipping</p>
+                        <img src="./imges/track.svg" alt="track">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <h2>Reviews</h2>
+                <ul class="reviews-list">
+                    <li class="reviews-item">
+                        <p class="reviews-text">
+                            Sneakers are very
+                            comfortable and well
+                            painted, nothing has
+                            worn off in a year.</p>
+                            <p class="reviews-date">25.11</p>
+                        <div class="reviews-autor-wrapper">
+                            <img src="./imges/John.png" alt="John">
+                            <p>John Teylor</p>
+                            <p>With us from 2018</p>
+                        </div>
+                    </li>
+
+                    <li class="reviews-item">
+                        <p class="reviews-text">I'm very happy with this color scheme.
+                            They match all my clothes.</p>
+                            <p class="reviews-date">05.01</p>
+                        <div class="reviews-autor-wrapper">
+                            <img src="./imges/Elizabeth.png" alt="Elizabeth">
+                            <p>Elizabeth Garsia</p>
+                            <p>With us from 2020</p>
+                        </div>
+                    </li>
+
+                    <li class="reviews-item">
+                        <p class="reviews-text">Just right if you need to go to a party.
+                            I use them actively, the paint is super.</p>
+                            <p class="reviews-date">18.06</p>
+                        <div class="reviews-autor-wrapper">
+                            <img src="./imges/Tom.png" alt="Tom">
+                            <p>Tom Maquare</p>
+                            <p>With us from 2019</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="order">
+            <div class="container">
+                <form action="">
+                    <div class="order">
+                        <input placeholder="Write your email" type="text">
+                        <button class="order-email-button" type="submit">Confirm</button>
+                    </div>
+                    <input placeholder="Your Country" type="text">
+                    <input placeholder="Your City" type="text">
+                    <input placeholder="Your Adress" type="text">
+                </form>
+                <button type="submit">Order my Nike </button>
             </div>
         </section>
     </main>

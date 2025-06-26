@@ -1,0 +1,21 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "PT Serif", sans-serif;
+  --backround-color: #012D63;
+  --main-backround-color: #021635;
+  --main-nav-color: #C7C7C7;
+  --main-text-color: #FFFFFF;
+  --my-button-color: #8E32C6;
+}
+
+/* html {
+ scroll-behavior: smooth;
+} */
+
+body{
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+  background-color: var(--main-backround-color);
+ scroll-behavior: smooth;
+}
