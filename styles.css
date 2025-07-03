@@ -19,3 +19,12 @@ body{
   background-color: var(--main-backround-color);
  scroll-behavior: smooth;
 }
+
+nav{
+  display: flex;
+
+}
+
+.container{
+  width: 1140px;
+}

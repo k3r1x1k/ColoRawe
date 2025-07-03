@@ -19,16 +19,16 @@
 
 <body>
     <header id="header">
-        <div class="container">
+        <div class="container ">
             <nav>
                 <a href="./index.html"><img src="./imges/logo.svg" alt="logo"></a>
-                <ul>
-                    <li><a href="./index.html">Main page</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#advantages">Advantages</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                    <li><a href="#order">Order</a></li>
+                <ul class="header-list">
+                    <li class="header-items"><a href="./index.html">Main page</a></li>
+                    <li class="header-items"><a href="#benefits">Benefits</a></li>
+                    <li class="header-items"><a href="#advantages">Advantages</a></li>
+                    <li class="header-items"><a href="#reviews">Reviews</a></li>
+                    <li class="header-items"><a href="#contacts">Contacts</a></li>
+                    <li class="header-items"><a href="#order">Order</a></li>
                 </ul>
 
                 <ul>
@@ -82,7 +82,7 @@
                             comfortable and well
                             painted, nothing has
                             worn off in a year.</p>
-                            <p class="reviews-date">25.11</p>
+                        <p class="reviews-date">25.11</p>
                         <div class="reviews-autor-wrapper">
                             <img src="./imges/John.png" alt="John">
                             <p>John Teylor</p>
@@ -93,7 +93,7 @@
                     <li class="reviews-item">
                         <p class="reviews-text">I'm very happy with this color scheme.
                             They match all my clothes.</p>
-                            <p class="reviews-date">05.01</p>
+                        <p class="reviews-date">05.01</p>
                         <div class="reviews-autor-wrapper">
                             <img src="./imges/Elizabeth.png" alt="Elizabeth">
                             <p>Elizabeth Garsia</p>
@@ -104,7 +104,7 @@
                     <li class="reviews-item">
                         <p class="reviews-text">Just right if you need to go to a party.
                             I use them actively, the paint is super.</p>
-                            <p class="reviews-date">18.06</p>
+                        <p class="reviews-date">18.06</p>
                         <div class="reviews-autor-wrapper">
                             <img src="./imges/Tom.png" alt="Tom">
                             <p>Tom Maquare</p>
@@ -117,19 +117,49 @@
 
         <section id="order">
             <div class="container">
-                <form action="">
-                    <div class="order">
-                        <input placeholder="Write your email" type="text">
+                <form>
+                    <label for="email">
+                        <input class="order-email" placeholder="Write your email" type="text">
                         <button class="order-email-button" type="submit">Confirm</button>
-                    </div>
-                    <input placeholder="Your Country" type="text">
-                    <input placeholder="Your City" type="text">
-                    <input placeholder="Your Adress" type="text">
+                    </label>
+                    <label for="country">
+                        <input id="contry" class="order-input" placeholder="Your Country" type="text">
+                    </label>
+                    <label for="city">
+                        <input class="order-input" placeholder="Your City" type="text">
+                    </label>
+                    <label for="adress">
+                        <input class="order-input" placeholder="Your Adress" type="text">
+                    </label>
+                    <button type="submit">Order my Nike</button>
                 </form>
-                <button type="submit">Order my Nike </button>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <div id="contacts">
+                <ul class="offer-list">
+                    <li class="contacts-offer-item">Have a question?</li>
+                    <li class="contacts-offer-item">Have a proposal for cooperation?</li>
+                    <li class="contacts-offer-item">Advertising questions?</li>
+                </ul>
+                <address>
+                    <ul class="contacts-email-list">
+                        <li class="contacts-email-item">ColoRawe_support@gmail.com</li>
+                        <li class="contacts-email-item">ColoRawe_Cooperation@gmail.com</li>
+                        <li class="contacts-email-item">ColoRawe_Advertising@gmail.com</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="bottom-info">
+                <p class="bottom-info-text">2022 ColoRawe @All rights reserved</p>
+                <p class="bottom-info-text">United States</p>
+                <img src="./imges/hero-logo.svg" alt="logo">
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
