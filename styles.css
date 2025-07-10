@@ -151,16 +151,20 @@ color: #fff;
 }
 
 #reviews {
+  padding-top: 24px;
+  padding-bottom: 112px;
   /* width: 1440px;
   height: 520px; */ 
-  background-image: url(./imges/flowers.svg);
+  border: 2px solid var(--main-text-color);
+  background-image: url(./imges/flowers.svg), url(./imges/bc-reviews.png);
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left bottom, center;
+  background-size: 225px 380px, cover;
   /* margin: 0 auto; */
 }
 
 #reviews h2{
-  margin-top: 28px;
+margin-bottom: 24px;
   font-family: var(--second-family);
 font-weight: 400;
 font-size: 48px;
@@ -177,8 +181,6 @@ gap: 94px;
 .reviews-item{
   width: 255px;
   height: 292px;
-  margin-top: 24px;
-  margin-bottom: 112px;
   border-radius: 15px;
 }
 
@@ -186,6 +188,8 @@ gap: 94px;
   padding-top: 48px;
   /* padding-right: 12px; */
   padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 28px;
 }
 
 .reviews-item:nth-child(1){
@@ -214,6 +218,7 @@ color: #fff;
 }
 
 .reviews-date{
+  padding-top: 8px;
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
@@ -234,13 +239,66 @@ font-size: 12px;
 color: #d8d8d8;
 }
 
-/* .reviews-autor-wrapper{
+.reviews-autor-wrapper{
+  display: flex;
+  margin-top: 48px;
+  gap: 5px;
+}
 
-} */
-
-#order {
+#order{
   padding-top: 20px;
   padding-bottom: 36px;
+  background-image: url(./imges/bc-order.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#order h2{
+  margin-bottom: 32px;
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #fff;
+}
+
+
+.order-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: var(--main-nav-color);
+}
+
+.order-email-button{
+  /* display: block; */
+  background-color: var(--main-text-color);
+  color: var(--main-nav-color);
+}
+
+.order-form > label:first-child{
+    width: 690px;
+  height: 60px;
+  display: flex;
+  border-radius: 50px;
+}
+
+.order-button{
+  border-radius: 16px;
+width: 248px;
+height: 68px;
+background-color: var(--my-button-color);
+color: var(--main-text-color);
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+}
+
+input{
+  border-radius: 50px;
+width: 580px;
+height: 50px;
 }
 
 footer {
