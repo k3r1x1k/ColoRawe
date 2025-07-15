@@ -275,6 +275,14 @@ color: #fff;
   /* display: block; */
   background-color: var(--main-text-color);
   color: var(--main-nav-color);
+  border-left:1px solid #959595;
+
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 28px;
+color: #8d8d8d;
+padding: 13px 78px;
+
 }
 
 .order-form > label:first-child{
@@ -282,6 +290,9 @@ color: #fff;
   height: 60px;
   display: flex;
   border-radius: 50px;
+  overflow: hidden;
+  background-color: var(--main-text-color);
+  align-items: center;
 }
 
 .order-button{
@@ -295,13 +306,30 @@ font-weight: 400;
 font-size: 24px;
 }
 
-input{
+.order-form input{
   border-radius: 50px;
 width: 580px;
 height: 50px;
+padding-left: 28px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #959595;
+border: none;
+outline: none;
 }
 
 footer {
   padding-top: 44px;
   padding-bottom: 48px;
+}
+
+#contacts{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
