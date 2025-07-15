@@ -332,4 +332,41 @@ color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid #9b9b9b;
+  padding-bottom: 20px;
+
+}
+
+.contacts-email-list{
+  text-decoration: underline;
+}
+
+.offer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts-email-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.bottom-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  /* padding-bottom: 48px; */
+}
+
+.bottom-info-text:first-child{
+  margin-bottom: 7px;
+}
+
+.bottom-info > img{
+  width: 108px;
+  height: 84px;
 }
