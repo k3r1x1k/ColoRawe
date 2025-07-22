@@ -26,7 +26,7 @@ body {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 #header {
@@ -56,6 +56,10 @@ nav {
   font-weight: 300;
   font-size: 24px;
   color: var(--main-nav-color);
+}
+
+.header-item>a:hover{
+  color: var(--main-text-color);
 }
 
 .header-list-languages {
@@ -115,6 +119,10 @@ color: #fff;
   color: var(--main-text-color);
   border-radius: 10px;
   padding: 20px 60px;
+}
+
+.hero-button:hover{
+  background-color: #844dd1;
 }
 
 #benefits{
@@ -304,6 +312,10 @@ color: var(--main-text-color);
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 24px;
+}
+
+.order-button:hover{
+  background-color: #844dd1;
 }
 
 .order-form input{
